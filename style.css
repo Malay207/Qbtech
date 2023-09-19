@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: #191d28;
+    color: #3dc6c1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+header h1 {
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+header div select {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #6c757d;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#buy {
+    background-color: #6c757d;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.head-last {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.btn {
+    background-color: #3dc6c1;
+    color: white;
+    font-weight: 400;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#flexSwitchCheckDefault {
+    width: 60px;
+    height: 30px;
+    box-shadow: none;
+
+}
+
+#time {
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 3px solid #3dc6c1;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+main h3 {
+    text-align: center;
+    color: grey;
+    margin: 10px 0;
+}
+
+main .sec1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+main .sec1 h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 80px;
+}
+
+main .sec1 h4 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+main .sec1 .data p {
+    color: grey;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+main .sec2 h6 {
+    color: grey;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: center;
+}
+
+main .sec2 .table th {
+    color: grey;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+main .sec2 .table td {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    margin: 0 10px;
+}
+
+hr {
+    border: 2px solid #ffffff;
+}
+
+.last {
+    background-color: #191d28;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.last_one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+    border: 1px solid #3dc6c1;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.last_one:hover {
+    background-color: #3dc6c1;
+    color: white;
+}
